@@ -28,8 +28,13 @@ body {
 
 }
 
-.collumn-box {
+.collumn-box-1 {
     height: fit-content;
+}
+
+.collumn-box-2 {
+    height: fit-content;
+    text-align: centre;
 }
 
 h1 {
