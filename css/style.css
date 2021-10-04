@@ -2,6 +2,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+ button:hover {
+    background-color: black;
+    color: white;
+}
 #title {
     background-color: #ff2462;
 }
