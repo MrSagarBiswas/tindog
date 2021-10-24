@@ -124,6 +124,7 @@ h2 {
 
 #pricing {
     padding: 4%;
+    text-align: center;
 }
 
 #pricing .col {
@@ -136,6 +137,33 @@ h2 {
 
 #pricing .btn-down {
     margin-top: 10%;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff2462;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer .fab {
+    margin: 20px 10px;
+    font-size: 2rem;
 }
 
 /* Responsiveness */
