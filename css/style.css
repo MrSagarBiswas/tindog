@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -51,7 +51,9 @@ h1 {
 
 .iphone {
     transform: rotate(25deg);
-    width: 60%;
+    width: 21%;
+    position: absolute;
+    left: 55%;
 }
 
 /* Features */
@@ -59,6 +61,9 @@ h1 {
 #features {
     padding: 7% 15%;
     text-align: center;
+    background: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 h3 {
@@ -115,4 +120,20 @@ h2 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+#pricing {
+    padding: 4%;
+}
+
+#pricing .col {
+    padding: 3% 2%;
+}
+
+#pricing .card {
+    height: 100%;
+}
+
+#pricing .btn-down {
+    margin-top: 10%;
 }
