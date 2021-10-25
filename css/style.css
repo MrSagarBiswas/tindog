@@ -2,13 +2,25 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.padder {
+    padding: 7% 15%;
+}
+
+/* Title Section */
+
 #title {
     background-color: #ff2462;
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding-top: 3%;
 }
+
+/* Navbar */
 
 .navbar-brand {
     font-size: 2rem;
@@ -28,6 +40,8 @@ body {
 
 }
 
+/* First Heading */
+
 .collumn-box-1 {
     height: fit-content;
 }
@@ -38,11 +52,9 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: azure;
     font-size: 3.5rem;
     line-height: 1.5;
-    
+    color: azure;
 }
 
 .btn-download {
@@ -59,15 +71,10 @@ h1 {
 /* Features */
 
 #features {
-    padding: 7% 15%;
     text-align: center;
     background: #fff;
     position: relative;
     z-index: 1;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .features-box {
@@ -96,7 +103,6 @@ p {
 }
 
 h2 {
-    font-family: 'Otomanopee One', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -116,10 +122,6 @@ h2 {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
-}
-
-.carousel-item {
-    padding: 7% 15%;
 }
 
 #pricing {
@@ -143,12 +145,10 @@ h2 {
 
 #cta {
     background-color: #ff2462;
-    padding: 7% 15%;
     text-align: center;
 }
 
 #cta h3 {
-    font-family: 'Montserrat', sans-serif;
     color: azure;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -157,13 +157,17 @@ h2 {
 /* Footer */
 
 #footer {
-    padding: 7% 15%;
+    padding-bottom: 1%;
     text-align: center;
 }
 
 #footer .fab {
     margin: 20px 10px;
     font-size: 2rem;
+}
+
+#footer a {
+    text-decoration: none;
 }
 
 /* Responsiveness */
