@@ -1,186 +1,189 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .padder {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 /* Title Section */
 
 #title {
-    background-color: #ff2462;
+  background-color: #ff2462;
 }
 
 .container-fluid {
-    padding-top: 3%;
+  padding-top: 3%;
 }
 
 /* Navbar */
 
 .navbar-brand {
-    font-size: 2rem;
-    margin-left: 0px !important;
+  font-size: 2rem;
+  margin-left: 0px !important;
 }
 
 .navbar {
-    font-size: 2rem;
-    padding-bottom: 4.5rem;
+  font-size: 2rem;
+  padding-bottom: 4.5rem;
 }
 
 .nav-item {
-    padding: 0px 18px;
+  padding: 0px 18px;
 }
 .nav-link {
-    font-size: 1.2rem;
-
+  font-size: 1.2rem;
 }
 
 /* First Heading */
 
 .collumn-box-1 {
-    height: fit-content;
+  height: fit-content;
 }
 
 .collumn-box-2 {
-    height: fit-content;
-    text-align: centre;
+  height: fit-content;
+  text-align: centre;
 }
 
 h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    color: azure;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: azure;
 }
 
 .btn-download {
-    margin: 5% 3% 5% 0%;
+  margin: 5% 3% 5% 0%;
 }
 
 .iphone {
-    transform: rotate(25deg);
-    width: 21%;
-    position: absolute;
-    left: 55%;
+  transform: rotate(25deg);
+  width: 21%;
+  position: absolute;
+  left: 55%;
 }
 
 /* Features */
 
 #features {
-    text-align: center;
-    background: #fff;
-    position: relative;
-    z-index: 1;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .features-box {
-    padding: 5%;
+  padding: 5%;
 }
 
 p {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 .icon {
-    margin-bottom: 1rem;
-    color: #ef8172;
+  margin-bottom: 1rem;
+  color: #ef8172;
 }
 
 .icon:hover {
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
 /* testimonials */
 
 #testimonials {
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
 
 h2 {
-    font-size: 3rem;
-    line-height: 1.5;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 #press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
 #pricing {
-    padding: 4%;
-    text-align: center;
+  padding: 4%;
+  text-align: center;
 }
 
 #pricing .col {
-    padding: 3% 2%;
+  padding: 3% 2%;
 }
 
 #pricing .card {
-    height: 100%;
+  height: 100%;
 }
 
 #pricing .btn-down {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 /* Call to Action */
 
 #cta {
-    background-color: #ff2462;
-    text-align: center;
+  background-color: #ff2462;
+  text-align: center;
 }
 
 #cta h3 {
-    color: azure;
-    font-size: 3.5rem;
-    line-height: 1.5;
+  color: azure;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 /* Footer */
 
 #footer {
-    padding-bottom: 1%;
-    text-align: center;
+  padding-bottom: 1%;
+  text-align: center;
 }
 
 #footer .fab {
-    margin: 20px 10px;
-    font-size: 2rem;
+  margin: 20px 10px;
+  font-size: 2rem;
 }
 
 #footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Responsiveness */
 
 @media (max-width: 992px) {
-
-    #title {
-        text-align: center;
-    }
-    .iphone {
-        position: relative;
-        width: 40%;
-        transform: rotateY(0deg);
-        left: auto;
-    }
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: relative;
+    width: 40%;
+    transform: rotateY(0deg);
+    left: auto;
+  }
 }
